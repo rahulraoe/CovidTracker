@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_Details_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20sp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img"
+                    android:layout_margin="5sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp" />
+
+
+
+                <TextView
+                    android:id="@+id/oneh"
+                    android:layout_below="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Total Cases"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/one"
+                    android:layout_below="@+id/oneh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/twoh"
+                    android:layout_below="@+id/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Total Deaths"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/two"
+                    android:layout_below="@+id/twoh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+
+
+                <TextView
+                    android:id="@+id/twooh"
+                    android:layout_below="@+id/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Total Recovered"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/twoo"
+                    android:layout_below="@+id/twooh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/threeh"
+                    android:layout_below="@+id/twoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Active"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/three"
+                    android:layout_below="@+id/threeh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/threehh"
+                    android:layout_below="@+id/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Critical"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/threee"
+                    android:layout_below="@+id/threehh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/fourh"
+                    android:layout_below="@+id/threee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Today Cases"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/four"
+                    android:layout_below="@+id/fourh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+
+                <TextView
+                    android:id="@+id/fiveh"
+                    android:layout_below="@+id/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Today Deaths"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_below="@+id/fiveh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+
+                <TextView
+                    android:id="@+id/sixh"
+                    android:layout_below="@+id/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Cases Per Million"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/six"
+                    android:layout_below="@+id/sixh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/sevenh"
+                    android:layout_below="@+id/six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Tests Per Million"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/seven"
+                    android:layout_below="@+id/sevenh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/eigthh"
+                    android:layout_below="@+id/seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Deaths Per Million"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/eigth"
+                    android:layout_below="@+id/eigthh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+
+                <TextView
+                    android:id="@+id/nineh"
+                    android:layout_below="@+id/eigth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Continent"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/nine"
+                    android:layout_below="@+id/nineh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10sp"
+                    android:textSize="16sp"
+                    android:alpha="0.8"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
